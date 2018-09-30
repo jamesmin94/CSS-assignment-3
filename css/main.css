@@ -8,13 +8,13 @@ html {
     box-sizing: inherit; /* keep */
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Raleway', 'Verdana', sans-serif;
     background: #5598b2; /* keep */
     color: #333; /* keep */
     margin: 0; /* keep */
 }
 h1, h2 {
-    font-family: serif;
+    font-family: 'Roboto Slab', 'Georgia', serif;
 }
 #tagline {
     font-style: italic;
@@ -37,8 +37,8 @@ img {
     max-width: 1280px; /* keep */
     margin: auto; /* keep */
     display: grid; /* keep */
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: [header-start] 100% [header-end] repeat(4, 25%);
+    grid-template-rows:  repeat(1, auto);
     grid-template-areas:
         "header arial georgia pairing bobwhite-quail"
         "readability line-length helvetica typeface footer";
@@ -53,6 +53,7 @@ img {
 header {
     grid-area: header; /* keep */
     background: #fff; /* keep */
+    text-align: center;
 }
 #arial {
     grid-area: arial; /* keep */
