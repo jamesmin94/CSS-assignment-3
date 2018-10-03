@@ -39,13 +39,9 @@ img {
     max-width: 1280px; /* keep */
     margin: auto; /* keep */
     display: grid; /* keep */
-<<<<<<< HEAD
-    grid-template-columns:  repeat(5, auto);
+    grid-template-columns: repeat(5, auto);
     grid-template-rows: repeat(7, auto);
-=======
-    grid-template-columns: [header-start] 100% [header-end] repeat(4, 25%);
-    grid-template-rows:  repeat(1, auto);
->>>>>>> 40e310fac08377307829c547bd3720fc45998478
+
     grid-template-areas:
         "header header header header header"
         "pairing pairing pairing arial georgia"
@@ -66,10 +62,6 @@ header {
     grid-area: header; /* keep */
     background: #fff; /* keep */
     text-align: center;
-<<<<<<< HEAD
-
-=======
->>>>>>> 40e310fac08377307829c547bd3720fc45998478
 }
 #arial {
     grid-area: arial; /* keep */
