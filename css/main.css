@@ -173,7 +173,7 @@ a:hover {
 
 /* media queries below - only 1 is needed */
 
-@media screen and (max-width: 621px) {
+@media screen and (max-width: 484px) {
   article{
     margin: 1rem;
   }
@@ -243,3 +243,4 @@ a:hover {
     padding: 20px;
   }
 }
+/*
