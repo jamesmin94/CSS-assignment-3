@@ -29,7 +29,6 @@ body header p{
 
 #tagline {
     font-style: italic;
-    font-size: 150%
 }
 /* all images will stretch to fill their containing element */
 img {
@@ -80,7 +79,7 @@ header {
     padding-bottom: 10px;
     padding-right: 5px;
     padding-left: 5px;
-    font-size: 95%;
+    font-size: 75%;
     line-height: 120%;
 }
 #georgia {
@@ -90,7 +89,7 @@ header {
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 5px;
-    font-size: 95%;
+    font-size: 75%;
     line-height: 120%;
 }
 #pairing {
@@ -101,8 +100,8 @@ header {
     padding-right: 20px;
     padding-left: 40px;
     margin: 0;
-    font-size: 150%;
-    line-height: 160%;
+    font-size: 120%;
+    line-height: 120%;
 
 }
 #bobwhite-quail {
@@ -112,7 +111,7 @@ header {
     padding-bottom: 70px;
     padding-right: 15px;
     padding-left: 50px;
-    font-size: 90%;
+    font-size: 80%;
     line-height: 120%;
 }
 #readability {
@@ -142,7 +141,7 @@ header {
     margin-top: 60px;
     padding: 40px;
     font-size: 85%;
-    line-height: 19px;
+    line-height: 25px;
 }
 #typeface {
     grid-area: typeface; /* keep */
@@ -150,14 +149,13 @@ header {
     background: #5598b2; /* keep */
     padding: 40px;
     text-shadow: 1px 1px #000;
-    line-height: 19px;
+    line-height: 25px;
 }
 footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     font-size: 100%;
     padding: 10px;
-    text-align: center;
 }
 
 /* end of all 10 grid items */
@@ -174,7 +172,7 @@ a:hover {
 
 /* media queries below - only 1 is needed */
 
-@media screen and (max-width: 484px) {
+@media screen and (max-width: 621px) {
   article{
     margin: 1rem;
   }
@@ -204,41 +202,39 @@ a:hover {
     padding-bottom: 60px;
   }
   #arial {
-    padding: 20px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+      padding: 20px;
+      padding-right: 10px;
   }
   #georgia {
-    padding: 20px;
-    padding-left: 10px;
-    padding-bottom: 10px;
+      padding: 20px;
+      padding-left: 10px;
   }
 
   #pairing {
-    padding: 20px;
+      padding: 20px;
 
   }
 
   #bobwhite-quail {
-    padding: 20px;
-    padding-bottom: 0px;
+      padding: 20px;
+      padding-bottom: 0px;
   }
 
   #readability {
-    padding: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+      padding: 20px;
+      padding-top: 0px;
+      padding-bottom: 0px;
   }
   #line-length {
-    padding: 20px;
-    padding-top: 0px;
+      padding: 20px;
+      padding-top: 0px;
   }
   #helvetica {
-    padding: 20px;
-    margin: 0;
+      padding: 0;
+      margin: 0;
   }
   #typeface {
-    padding: 20px;
+      padding: 20px;
   }
   footer {
     padding: 20px;
