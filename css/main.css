@@ -155,8 +155,9 @@ header {
 footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
-    font-size: 100%;
+    font-size: 127%;
     padding: 10px;
+    text-align: center;
 }
 
 /* end of all 10 grid items */
@@ -238,6 +239,10 @@ a:hover {
       padding: 20px;
   }
   footer {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-align: justify;
   }
 }
